@@ -15,6 +15,7 @@ body {
     background-color: #f6f8fc;
 }
 
+/*Media queri*/
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;

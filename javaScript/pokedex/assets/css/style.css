@@ -57,6 +57,7 @@
     margin: auto;
 }
 
+/*Media queri*/
 @media screen and (max-width: 320px) {
     .pokemons {
         grid-template-columns: 1fr;
