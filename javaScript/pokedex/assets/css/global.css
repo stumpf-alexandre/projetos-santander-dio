@@ -1,0 +1,25 @@
+/*resolvendo o problema de medidas fixas como o px*/
+:root {
+    font-size: 62.5%;/*para converter o px em rem, apenas dividindo por 10. Ex:65px é igual a 6.5rem*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*não deixa uma caixa alterar suas medidas quando utilizada padding dentro dela*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
