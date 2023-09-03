@@ -20,15 +20,9 @@ function convertPokemon (pokemon) {
 
 const pokemonList = document.getElementById('pokemonList');
 
-//interface de comunicação de uma promice
-//requisição assincrona
-fetch(url)
-    .then((response) => response.json())
-    .then((jsonbody) => jsonbody.results)
-    .then((pokemonsList) => {
+pokeApi.getPokemons().then((pokemonsList) => {
         for (let i = 0; i < pokemonsList.length; i++) {
             const pokemons = pokemonsList[i];
             pokemonList.innerHTML += convertPokemon(pokemons);
         }
     })
-    .catch((error) => console.log(error))
