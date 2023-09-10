@@ -16,7 +16,8 @@
     padding-left: 10px;
   }
 
-  .card__left > h1 {
+  .card__left > a {
+    text-decoration: none;
     margin-top: 15px;
     font-size: 25px;
   }

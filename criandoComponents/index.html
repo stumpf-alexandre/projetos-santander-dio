@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="./src/Components/CardNews.js" defer></script>
     <script src="./src/Components/TituloDinamico.js" defer></script>
+    <script src="./src/Components/CardProfile.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="card">
             <div class="card__left">
                 <span>By Alexandre Stumpf</span>
-                <h1>Darth Vader Contrata Devs</h1>
+                <a href="#">Darth Vader Contrata Devs</a>
                 <p>Darth Vader procura desenvolvedores que saibam trabalhar com components</p>
             </div>
 
@@ -30,5 +31,19 @@
     <titulo-dinamico titulo="Noticia urgente"></titulo-dinamico>
     <titulo-dinamico titulo="Novo titulo"></titulo-dinamico>
     <titulo-dinamico titulo="Noticia nova"></titulo-dinamico>
+
+    <hr>
+
+    <card-profile></card-profile>
+
+    <hr>
+
+    <card-profile 
+        autor="Alexandre Stumpf"
+        title="Darth Vader Contrata"
+        link-url="www.google.com"
+        content="Darth Vader procura desenvolvedores que saibam trabalhar com components"
+        photo="./assets/asset-vader.png"
+    ></card-profile>
 </body>
 </html>
