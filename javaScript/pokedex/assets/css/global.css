@@ -9,6 +9,7 @@
     box-sizing: border-box;/*não deixa uma caixa alterar suas medidas quando utilizada padding dentro dela*/
     font-family: 'Roboto', sans-serif;
     font-size: 1.8rem;
+    transition: 0.5s;
 }
 
 body {
