@@ -12,3 +12,6 @@ dentro da pasta raiz do projeto
 
     ----criando um script novo na pasta package.json-----
     "start": "npx tsc && node build/index.js",  =>  chamamos estes comandos com apenas um comando que é o npm run start
+    instalando um servidor local que entende typescript => npm install ts-node-dev -D (no power shell).
+    (no arquivo package.json insira) => "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    comando para rodar o servidor local de type script sem gerar uma build => npm run start:dev
