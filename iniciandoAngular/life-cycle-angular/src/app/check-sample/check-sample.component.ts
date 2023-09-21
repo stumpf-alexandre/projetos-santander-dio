@@ -20,8 +20,18 @@ export class CheckSampleComponent implements OnInit,
            AfterViewChecked,
            AfterViewInit {
 
+  quantidade: number = 0
+
   constructor() {
     console.log('constructor segunda leva')
+   }
+
+   incrementar() {
+    this.quantidade += 1
+   }
+
+   decrementar() {
+    this.quantidade -= 1
    }
 
   ngAfterViewInit(): void {
