@@ -5,7 +5,8 @@ import {
   AfterContentChecked,
   AfterContentInit,
   AfterViewChecked,
-  AfterViewInit
+  AfterViewInit,
+  OnDestroy
 } from '@angular/core';
 
 @Component({
@@ -18,7 +19,8 @@ export class CheckSampleComponent implements OnInit,
            AfterContentChecked,
            AfterContentInit,
            AfterViewChecked,
-           AfterViewInit {
+           AfterViewInit,
+           OnDestroy {
 
   quantidade: number = 0
 
@@ -34,15 +36,22 @@ export class CheckSampleComponent implements OnInit,
     this.quantidade -= 1
    }
 
+  //é executado depois da inicialização da view
   ngAfterViewInit(): void {
     console.log('ngAfterViewInit')
   }
+
+  //é executado após alguma alteração, verifica a view
   ngAfterViewChecked(): void {
     console.log('ngAfterViewChecked')
   }
+
+  //é executado quando o primeiro conteudo é iniciado
   ngAfterContentInit(): void {
     console.log('ngAfterContentInit')
   }
+
+  //é executado após alguma alteração, verifica o conteudo
   ngAfterContentChecked(): void {
     console.log('ngAfterContentChecked')
   }
@@ -52,6 +61,10 @@ export class CheckSampleComponent implements OnInit,
 
   ngOnInit(): void {
     console.log('ngOnInit')
+  }
+
+  ngOnDestroy(): void {
+    console.log("Goodbye my friend")
   }
 
 }
