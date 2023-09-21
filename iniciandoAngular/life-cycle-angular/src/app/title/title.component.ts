@@ -13,6 +13,7 @@ export class TitleComponent implements OnInit, OnChanges {
   constructor() {
     console.log(`Constructor ${this.nome}`);
    }
+   
   ngOnChanges(): void {
     console.log(`OnChange ${this.nome}`);
   }
