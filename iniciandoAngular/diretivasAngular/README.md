@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - code . => para abrir o vs code apenas na pasta desejada 
 - ng g c card => para criar um component card
 - ng serve => para criar o servidor
+-ng g m ...nome do module... => cria um sub module
