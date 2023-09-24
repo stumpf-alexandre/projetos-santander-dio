@@ -29,4 +29,9 @@ export class CardComponent implements OnInit {
     this.produtos.pop()
   }
 
+  removerIndex(index: number) {
+    alert(`Item ${index} removido`)
+    this.produtos.splice(index, 1)
+  }
+
 }
