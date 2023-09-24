@@ -21,4 +21,12 @@ export class CardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  adicionar() {
+    this.produtos.push("Alexandre")
+  }
+
+  remover() {
+    this.produtos.pop()
+  }
+
 }
