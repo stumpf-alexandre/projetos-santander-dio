@@ -1,7 +1,7 @@
 .container-big-card {
-  margin: 0px 10px;
+  margin: 0px 20px;
   height: 500px;
-  width: 400px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,8 +9,9 @@
 }
 
 .photo-big-card > img {
+  height: 250px;
   width: 100%;
-  min-width: 400px;
+  min-width: 600px;
 }
 
 .title-big-card > h1 {
