@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'diretivasAngular';
+  isAliveCard = false;
+  isAliveCard2 = true;
 }
