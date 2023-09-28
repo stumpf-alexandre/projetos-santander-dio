@@ -1,0 +1,37 @@
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .container-menu-title > h1 {
+    font-size: 30px;
+  }
+}
+
+/*Extra small device*/
+@media screen and (481px <= width <= 767px) {
+  .container-menu-title > h1 {
+    font-size: 40px;
+  }
+}
+
+/*small tablet*/
+@media screen and (768px <= width <=991px) {
+  .container-menu-title > h1 {
+    font-size: 50px;
+  }
+}
+
+/*Large tablet/laptop*/
+@media screen and (992px <= width <= 1199px) {
+  .container-menu-title > h1 {
+    font-size: 60px;
+  }
+}
+
+/*Desktop*/
+@media screen and (1200px <= width <= 1919px) {
+  .container-menu-title > h1 {
+    font-size: 90px;
+  }
+}
+
+/*Extra large screen*/
+/*@media screen and (min-width: 1920px) {}*/

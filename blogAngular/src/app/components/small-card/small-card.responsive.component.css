@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  .photo-small-card > img {
+    height: 190x;
+    width: 185px;
+    min-width: 185px;
+    margin-right: 20px;
+  }
+
+  .title-small-card > h1 > a {
+    font-size: 20px;
+  }
+}
