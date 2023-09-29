@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu-title',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-title.component.css', './menu-title.responsive.component.css']
 })
 export class MenuTitleComponent implements OnInit {
+  @Input()
+  menuTitle: string = ''
 
   constructor() { }
 
