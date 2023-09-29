@@ -7,10 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
-  smallPhoto: string = 'https://media.seudinheiro.com/uploads/2023/02/Guardians-of-the-Galaxy-Vol.-3-715x402.jpg'
+  smallPhoto: string = ''
 
   @Input()
-  smallDescription: string ='Saiu a nova versão do angular'
+  smallDescription: string =''
 
   constructor() { }
 
