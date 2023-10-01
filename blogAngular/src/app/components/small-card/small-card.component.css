@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.title-small-card > h1 > a {
+  text-decoration: none;
+}
+
 .container-small-card-separetor {
   margin-top: 10px;
   color: #f7f6ff;
