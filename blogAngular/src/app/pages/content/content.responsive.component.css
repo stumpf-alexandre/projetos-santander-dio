@@ -1,0 +1,13 @@
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .content-cover > img {
+    width: 270px;
+  }
+}
+
+/*Extra small device*/
+@media screen and (481px <= width <= 767px) {
+  .content-cover > img {
+    width: 400px;
+  }
+}

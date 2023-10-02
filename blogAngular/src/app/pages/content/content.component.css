@@ -8,9 +8,10 @@
 }
 
 .content-cover > img {
-  width: 500px;
-  height: 300px;
+  width: 700px;
+  height: 400px;
   min-width: 500px;
+  min-height: 300px;
   border-radius: 5px;
   border: 5px solid rgb(144, 144, 144);
 }
