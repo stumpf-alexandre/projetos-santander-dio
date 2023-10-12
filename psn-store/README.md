@@ -37,3 +37,9 @@ ng g c components/card
 ng g c components/menu-bar
 
 ng serve
+
+## Atomizando os componentes do card
+
+ng g c components/card/card-label
+
+ng g c components/card/card-pricing
