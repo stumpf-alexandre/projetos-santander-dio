@@ -11,3 +11,7 @@
   font-size: 62.5%;/*para converter o px em rem, apenas dividindo por 10. Ex:65px é igual a 6.5rem*/
 }
 
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2,0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(9, 9, 121, 1) 100%);
+}
