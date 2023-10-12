@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*resolvendo o problema de medidas fixas como o px*/
+:root {
+  font-size: 62.5%;/*para converter o px em rem, apenas dividindo por 10. Ex:65px é igual a 6.5rem*/
+}
+
