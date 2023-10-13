@@ -43,3 +43,9 @@ ng serve
 ng g c components/card/card-label
 
 ng g c components/card/card-pricing
+
+## Refatorando o código com atomização do menu-bar
+
+ng g c components/menu-bar/menu-bar-item
+
+ng g c components/menu-bar/menu-bar-logo

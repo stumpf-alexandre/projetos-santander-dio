@@ -1,0 +1,8 @@
+.menu-bar-logo {
+  margin-left: 3rem;
+}
+
+.menu-bar-logo > img {
+  width: 14rem;
+  height: 3.2rem;
+}
