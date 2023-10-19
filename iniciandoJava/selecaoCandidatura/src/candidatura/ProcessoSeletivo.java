@@ -8,6 +8,17 @@ public class ProcessoSeletivo {
         selecaoCandidatos();
     }
 
+    static void imprimirSelecionados() {
+        String[] candidatos = { "FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO" };
+        System.out.println("Imprimir a lista de candidatos informando o indice do elemento");
+
+        int i = 0;
+        for (String candidato : candidatos) {
+            i++;
+            System.out.println("O candidato de nº " + i + " é " + candidato);
+        }
+    }
+
     static void analisarCandidato(double pretencaoSalarial) {
         double salarioBase = 2000.00;
 
